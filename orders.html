@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/orders.css">
+    <title>Orders</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-1">
+    
+            <div class="search">
+                <input type="text" placeholder="Search" class="search-bar">
+                <div class="search-icon">
+                    <img src="images/icons/search-icon.png" alt=".search-icon" class="search-icon-img">
+                </div>
+            </div>
+    
+            <div class="cart-returns">
+    
+                <a href="index.html">
+                    <div class="returns-container">
+                        <div>
+                            <p class="returns-p2">Home</p>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="orders.html">
+                    <div class="returns-container">
+                        <div>
+                            <p class="returns-p2">Orders</p>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="check-out.html">
+                    <div class="cart-container">
+                        <div class="quantity-container">
+                            <p class="cart-p1">0</p>
+                        </div>
+                        <img src="images/icons/cart-icon.png" alt="cart" class="cart">
+                        <p class="cart-p2">cart</p>
+                    </div>
+                </a>
+            </div>
+    
+    
+        </nav>
+    </header>
+
+    <main>
+        <article class="center">
+            <h4>Your Orders</h4>
+            <div class="order"></div>
+        </article>
+    </main>
+    <script src="js/lib/dayjs.min.js"></script>
+    <script type="module" src="js/orders.js"></script>
+</body>
+</html>

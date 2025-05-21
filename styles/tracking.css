@@ -1,0 +1,54 @@
+main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.gauge{
+    width: 0%;
+    /* max-width: 100%; */
+    height: 100%;
+    background-color: rgb(139, 139, 139);
+    border-radius: 10px;
+}
+
+.gauge-container{
+    width: 820px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 2px;
+}
+
+.orders-link{
+    text-decoration: underline;
+    color: rgb(17, 127, 201);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.orders-link:hover{
+    color: rgb(201, 70, 70);
+}
+
+.date{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-bottom: 5px;
+}
+
+.item-tracker img{
+    width: 130px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.stages{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}

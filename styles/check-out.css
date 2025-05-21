@@ -1,0 +1,219 @@
+body{
+    color: #0f0f0f;
+}
+
+.nav-1{
+    display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 63px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 6rem;
+    height: 2rem;
+}
+
+.check-out{
+    font-size: 1.51rem;
+}
+
+.check-out a{
+    color: rgb(139, 139, 139);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.center-main{
+    width: 80vw;
+    margin-top: 145px;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: grid;
+    gap: 13px;
+    grid-template-columns: 730px 1fr;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    border: 0.1px solid rgb(224, 224, 224);
+    width: 730px;
+    height: 274px;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    padding: 27px 18px;
+}
+
+.cost{
+    width: 356.19px;
+    height: 300px;
+    border: 0.1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    padding: 20px 18px;
+    position: fixed;
+    top: auto;
+    left: 873px;
+}
+
+.delivary-date{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(139, 139, 139);
+    margin-bottom: 23px;
+}
+
+.item-grid{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 95px 298px 1fr;
+}
+
+.item-grid img{
+    width: 95px;
+    max-height: 200px;
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-weight: bold;
+    color: rgb(206, 36, 36);
+    margin-bottom: 10px;
+}
+
+.update-dele{
+    margin-left: 3px;
+    color: rgb(87, 154, 255);
+    cursor: pointer;
+}
+
+.update-dele:hover{
+    color: rgb(201, 70, 70);
+}
+
+.delivary-option-header{
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+input[type=radio]{
+    transform: scale(1.6);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio-p1{
+    color: rgb(139, 139, 139);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.radio-p2{
+    color: #919191;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cost-header{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.shipping-price{
+    border-bottom: 0.1px solid rgb(219, 219, 219);
+    padding: 0 0 9px 8px;
+}
+
+.estimated-tax{
+    border-bottom: 0.1px solid rgb(219, 219, 219);
+    padding-bottom: 7px;
+}
+
+.total-cost{
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 1.15rem;
+    color: rgb(165, 27, 27);
+}
+
+.check-out-btn{
+    width: 100%;
+    padding: 14px 0;
+    border: none;
+    background-color: rgb(139, 139, 139);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.check-out-btn:hover{
+    background-color: rgb(43, 43, 43);
+}
+
+.update-input{
+    width: 30px;
+    margin-left: 3px;
+    border-radius: 3px;
+    padding: 1px 4px;
+    display: none;
+    border-width: 0.1px;
+    font-size: 1rem;
+}
+
+.save-update{
+    display: none;
+}
+
+.show-input-save{
+    display: inline;
+}
+
+.hide-update{
+    display: none;
+}
+
+input:focus {
+    border-color: rgb(255, 145, 0);
+    outline: 1px solid rgb(255, 145, 0);
+}

@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.center h4{
+    margin-top: 30px;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.order-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid rgb(216, 216, 216);
+    width: 860px;
+    height: 70px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(243, 243, 243);
+    padding: 0 20px;
+}
+
+.date-price{
+    display: flex;
+}
+
+.date-order{
+    margin-right: 45px;
+}
+
+.total{
+    margin-right: 40px;
+}
+
+.order-grid{
+    width: 860px;
+    border-left: 1.5px solid rgb(216, 216, 216);
+    border-right: 1.5px solid rgb(216, 216, 216);
+    border-bottom: 1.5px solid rgb(216, 216, 216);
+    border-radius: 0 0 10px 10px;
+    padding: 40px 20px;
+    margin-bottom: 60px;
+    display: grid;
+    gap: 70px;
+}
+
+.item-details img{
+    width: 100px;
+    margin-right: 45px;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* margin-bottom: 70px; */
+}
+
+.item-details{
+    display: flex;
+    align-items: flex-start;
+}
+
+.name{
+    font-weight: bold;
+    max-width: 354px;
+    margin-bottom: 5px;
+}
+
+.quantity-order{
+    margin-top: 5px;
+}
+
+.buy-again{
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(139, 139, 139);
+    cursor: pointer;
+    color: #fff;
+}
+
+.buy-again img{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.buy-again:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.track{
+    border: 1.9px solid rgb(218, 218, 218);
+    padding: 10px 0;
+    width: 220px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.track:hover{
+    background-color: rgb(245, 245, 245);
+}
